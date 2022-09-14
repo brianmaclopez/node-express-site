@@ -8,10 +8,10 @@ router.get('/', function(req, res, next) {
   res.render('./index.ejs');
 });
 
-router.get('/about', function(req, res, next) {
+router.get('/about.ejs', function(req, res, next) {
   res.render('./about.ejs');
 });
-router.get('/contact-me', function(req, res, next) {
+router.get('/contact-me.ejs', function(req, res, next) {
   res.render('./contact-me.ejs');
 });
 
